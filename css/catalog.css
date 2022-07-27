@@ -1,8 +1,8 @@
-@import url(../../dist/css/fonts.css);
-@import url(../../dist/css/header.css);
-@import url(../../dist/css/search-form.css);
-@import url(../../dist/css/nullstyle.css);
-@import url(../../dist/css/footer.css);
+@import url(../../css/fonts.css);
+@import url(../../css/header.css);
+@import url(../../css/search-form.css);
+@import url(../../css/nullstyle.css);
+@import url(../../css/footer.css);
 .more-man-info {
   height: 0;
   width: 0;

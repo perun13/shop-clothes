@@ -1,8 +1,8 @@
-@import url(../../dist/css/fonts.css);
-@import url(../../dist/css/header.css);
-@import url(../../dist/css/search-form.css);
-@import url(../../dist/css/nullstyle.css);
-@import url(../../dist/css/footer.css);
+@import url(../../css/fonts.css);
+@import url(../../css/header.css);
+@import url(../../css/search-form.css);
+@import url(../../css/nullstyle.css);
+@import url(../../css/footer.css);
 .window-sale.__active {
   width: 0;
   height: 0;
@@ -67,7 +67,7 @@
   margin-right: 5px;
 }
 .window-sale .body-window .title .red {
-  color: #FD5454;
+  color: #fd5454;
 }
 .window-sale .body-window input {
   width: 240px;
@@ -93,7 +93,7 @@
   margin-top: 22px;
   width: 250px;
   height: 50px;
-  background-color: #0F303F;
+  background-color: #0f303f;
   color: white;
   font-size: 16px;
   font-family: "Avenir";
@@ -105,7 +105,7 @@
   height: 0;
   width: 0;
   overflow: hidden;
-  border-top: 1px solid #EAE9E8;
+  border-top: 1px solid #eae9e8;
   transition: all 1s;
   padding-right: 15px;
   padding-left: 15px;
@@ -124,7 +124,7 @@
   height: 318px;
   padding-left: 35px;
   padding-right: 100px;
-  border-right: 1px solid #EAE9E8;
+  border-right: 1px solid #eae9e8;
   margin-top: 30px;
 }
 .more-man-info .info-colom .colom h1 {
@@ -145,7 +145,7 @@
   width: 111px;
 }
 .more-man-info .info-colom .colom a:hover {
-  color: #E64926;
+  color: #e64926;
 }
 
 .more-man-info.__active {
@@ -158,7 +158,7 @@
   height: 0;
   width: 0;
   overflow: hidden;
-  border-top: 1px solid #EAE9E8;
+  border-top: 1px solid #eae9e8;
   transition: all 1s;
   padding-right: 15px;
   padding-left: 15px;
@@ -177,7 +177,7 @@
   height: 318px;
   padding-left: 35px;
   padding-right: 100px;
-  border-right: 1px solid #EAE9E8;
+  border-right: 1px solid #eae9e8;
   margin-top: 30px;
 }
 .more-woman-info .info-colom .colom h1 {
@@ -198,7 +198,7 @@
   width: 111px;
 }
 .more-woman-info .info-colom .colom a:hover {
-  color: #E64926;
+  color: #e64926;
 }
 
 .more-woman-info.__active {
@@ -272,7 +272,7 @@
   font-size: 40px;
 }
 .box_1 .swiper-main .swiper-slide:nth-child(2) .text a {
-  color: #E64926;
+  color: #e64926;
   font-family: "Avenir";
   font-weight: normal;
   font-style: normal;
@@ -284,7 +284,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #EBEBEB;
+  background: #ebebeb;
 }
 .box_1 .swiper-main .swiper-slide:nth-child(3) .text {
   display: flex;
@@ -305,7 +305,7 @@
   font-size: 40px;
 }
 .box_1 .swiper-main .swiper-slide:nth-child(3) .text a {
-  color: #E64926;
+  color: #e64926;
   font-family: "Avenir";
   font-weight: normal;
   font-style: normal;
@@ -317,7 +317,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #EBEBEB;
+  background: #ebebeb;
 }
 .box_1 .swiper-main .swiper-slide:nth-child(4) .text {
   display: flex;
@@ -338,7 +338,7 @@
   font-size: 40px;
 }
 .box_1 .swiper-main .swiper-slide:nth-child(4) .text a {
-  color: #E64926;
+  color: #e64926;
   font-family: "Avenir";
   font-weight: normal;
   font-style: normal;
@@ -398,7 +398,7 @@
 }
 .box_2 .second {
   width: 50%;
-  background: #CEC6C4;
+  background: #cec6c4;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -473,7 +473,7 @@
 }
 .box_3 .box-3-swiper .swiper-wrapper .swiper-slide .price-old {
   margin-right: 5px;
-  color: #CECECE;
+  color: #cecece;
   font-family: "Jost", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -483,7 +483,7 @@
   font-family: "Jost", sans-serif;
   font-weight: 500;
   font-size: 14px;
-  color: #FD5454;
+  color: #fd5454;
 }
 .box_3 .box-3-swiper .swiper-button-prev,
 .box_3 .box-3-swiper .swiper-button-next {
@@ -508,7 +508,7 @@
 }
 
 .box_4 {
-  background: #254A5A 100%;
+  background: #254a5a 100%;
   height: 500px;
 }
 .box_4 .content {
