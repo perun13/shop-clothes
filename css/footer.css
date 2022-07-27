@@ -1,0 +1,124 @@
+.footer {
+  border-top: 1px solid #EAE9E8;
+  height: 255px;
+  margin-top: 125px;
+}
+.footer .content {
+  max-width: 513px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .content h1 {
+  margin-top: 65px;
+  font-weight: 600;
+  font-size: 30px;
+  font-family: "Cormorant Garamond", serif;
+  margin-bottom: 20px;
+}
+.footer .content .inp {
+  display: flex;
+  align-items: center;
+}
+.footer .content .inp input {
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid black;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  font-family: "Avenir";
+  font-weight: normal;
+  font-style: normal;
+}
+.footer .content .inp .btn {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #E64926;
+  cursor: pointer;
+  margin-left: 8px;
+}
+.footer .content .inp .btn .top {
+  width: 8px;
+  height: 1px;
+  background-color: #E64926;
+  transform: translate(3px, 8px);
+}
+.footer .content .inp .btn .bottom {
+  width: 4px;
+  height: 1px;
+  background-color: #E64926;
+  transform: translate(9px, 5px) rotate(45deg);
+}
+.footer .content .inp .btn .mid {
+  width: 4px;
+  height: 1px;
+  background-color: #E64926;
+  transform: translate(8px, 9px) rotate(-30deg);
+}
+.footer .content .info {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.footer .content .info a {
+  font-family: "Avenir";
+  font-weight: normal;
+  font-style: normal;
+  color: #B7C1C5;
+  font-size: 16px;
+  margin-right: 40px;
+}
+.footer .last-text {
+  border-top: 1px solid #EAE9E8;
+  margin-top: 60px;
+}
+.footer .last-text .text {
+  max-width: 1333px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.footer .last-text .text a {
+  color: black;
+  font-size: 12px;
+  font-family: "Jost", sans-serif;
+}
+.footer .last-text .text p {
+  color: black;
+  font-size: 12px;
+  font-family: "Jost", sans-serif;
+}
+
+@media (max-width: 425px) {
+  .footer .content .info a {
+    margin-right: 25px;
+  }
+  .footer .last-text .text a {
+    font-size: 10px;
+  }
+  .footer .last-text .text p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 375px) {
+  .footer .content .info a {
+    margin-right: 25px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 320px) {
+  .footer .content .info a {
+    font-size: 10px;
+  }
+  .footer .last-text .text a {
+    font-size: 8px;
+  }
+}

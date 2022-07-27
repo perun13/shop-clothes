@@ -1,0 +1,839 @@
+@import url(../../dist/css/fonts.css);
+@import url(../../dist/css/header.css);
+@import url(../../dist/css/search-form.css);
+@import url(../../dist/css/nullstyle.css);
+@import url(../../dist/css/footer.css);
+.more-man-info {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  border-top: 1px solid #eae9e8;
+  transition: all 1s;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.more-man-info .info-colom {
+  max-width: 573px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.more-man-info .info-colom .colom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 318px;
+  padding-left: 35px;
+  padding-right: 100px;
+  border-right: 1px solid #eae9e8;
+  margin-top: 30px;
+}
+.more-man-info .info-colom .colom h1 {
+  color: black;
+  font-family: "Avenir";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 14px;
+  margin-bottom: 35px;
+}
+.more-man-info .info-colom .colom a {
+  font-family: "Avenir";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  color: black;
+  margin-bottom: 13px;
+  width: 111px;
+}
+.more-man-info .info-colom .colom a:hover {
+  color: #e64926;
+}
+
+.more-man-info.__active {
+  width: 100%;
+  height: 430px;
+  transition: all 1s;
+}
+
+.more-woman-info {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  border-top: 1px solid #eae9e8;
+  transition: all 1s;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.more-woman-info .info-colom {
+  max-width: 573px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.more-woman-info .info-colom .colom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 318px;
+  padding-left: 35px;
+  padding-right: 100px;
+  border-right: 1px solid #eae9e8;
+  margin-top: 30px;
+}
+.more-woman-info .info-colom .colom h1 {
+  color: black;
+  font-family: "Avenir";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 14px;
+  margin-bottom: 35px;
+}
+.more-woman-info .info-colom .colom a {
+  font-family: "Avenir";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  color: black;
+  margin-bottom: 13px;
+  width: 111px;
+}
+.more-woman-info .info-colom .colom a:hover {
+  color: #e64926;
+}
+
+.more-woman-info.__active {
+  width: 100%;
+  height: 430px;
+  transition: all 1s;
+}
+
+.small {
+  max-width: 1333px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.small .text {
+  width: 270px;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.small .text .dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: black;
+}
+.small .text h3 {
+  font-size: 10px;
+  color: black;
+  font-family: "Avenir";
+  font-weight: normal;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-style: normal;
+}
+.small .text .gray {
+  color: #b7c1c5;
+}
+
+.box_1 {
+  display: flex;
+  max-width: 1338px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 23px;
+}
+.box_1 .left {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  margin-right: 25px;
+}
+.box_1 .left .sex {
+  display: flex;
+  align-items: center;
+}
+.box_1 .left .sex h1 {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: "Avenir";
+  color: black;
+  border-bottom: #b7c1c5 1px solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 20px;
+}
+.box_1 .left .sex .__active {
+  border-bottom: 1px solid #e64926;
+}
+.box_1 .left .list.man {
+  width: 0;
+  height: 0;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.box_1 .left .list.man.__active {
+  width: auto;
+  height: auto;
+  transition: all 0.5s;
+}
+.box_1 .left .list.__hiden {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.box_1 .left .list .item {
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: #b7c1c5 1px solid;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+.box_1 .left .list .item h1 {
+  font-size: 14px;
+  color: black;
+  font-weight: 900;
+  font-style: normal;
+  font-family: "Avenir";
+}
+.box_1 .left .list .item .plus .top {
+  width: 10px;
+  height: 1px;
+  transform: translate(3px, 5px);
+  background: black;
+}
+.box_1 .left .list .item .plus .bottom {
+  width: 10px;
+  height: 1px;
+  background: black;
+  transform: translate(3px, 4px) rotate(90deg);
+}
+.box_1 .left .list .item .plus.__active .bottom {
+  display: none;
+  transition: all 0.4s;
+}
+.box_1 .left .list .item .plus.__active .top {
+  background: #e64926;
+  transition: all 0.4s;
+}
+.box_1 .left .list .clothes-more-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.box_1 .left .list .clothes-more-item a {
+  font-size: 14px;
+  color: black;
+  font-family: "Avenir Book";
+  font-weight: normal;
+  font-style: normal;
+  margin-bottom: 9px;
+  width: 110px;
+  text-align: center;
+}
+.box_1 .left .list .clothes-more-item.__active {
+  height: 180px;
+  width: 122px;
+  transition: all 0.5s;
+}
+.box_1 .left .list .shoes-more-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.box_1 .left .list .shoes-more-item a {
+  font-size: 14px;
+  color: black;
+  font-family: "Avenir Book";
+  font-weight: normal;
+  font-style: normal;
+  margin-bottom: 9px;
+  width: 110px;
+  text-align: center;
+}
+.box_1 .left .list .shoes-more-item.__active {
+  height: 40px;
+  width: 122px;
+  transition: all 0.5s;
+}
+.box_1 .left .list .bag-more-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.box_1 .left .list .bag-more-item a {
+  font-size: 14px;
+  color: black;
+  font-family: "Avenir Book";
+  font-weight: normal;
+  font-style: normal;
+  margin-bottom: 9px;
+  width: 110px;
+  text-align: center;
+}
+.box_1 .left .list .bag-more-item.__active {
+  height: 130px;
+  width: 122px;
+  transition: all 0.5s;
+}
+.box_1 .left .list .accesories-more-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.box_1 .left .list .accesories-more-item a {
+  font-size: 14px;
+  color: black;
+  font-family: "Avenir Book";
+  font-weight: normal;
+  font-style: normal;
+  margin-bottom: 9px;
+  width: 110px;
+  text-align: center;
+}
+.box_1 .left .list .accesories-more-item.__active {
+  height: 180px;
+  width: 122px;
+  transition: all 0.5s;
+}
+.box_1 .left .list .inder-wear-more-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.box_1 .left .list .inder-wear-more-item a {
+  font-size: 14px;
+  color: black;
+  font-family: "Avenir Book";
+  font-weight: normal;
+  font-style: normal;
+  margin-bottom: 9px;
+  width: 110px;
+  text-align: center;
+}
+.box_1 .left .list .inder-wear-more-item.__active {
+  height: 180px;
+  width: 122px;
+  transition: all 0.5s;
+}
+.box_1 .right {
+  width: 840px;
+}
+.box_1 .right h1 {
+  color: #0f303f;
+  font-family: "Avenir";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  margin-bottom: 45px;
+}
+.box_1 .right .box-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.box_1 .right .box-menu .box-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 185px;
+  height: 40px;
+  border: 1px solid #eae9e8;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.box_1 .right .box-menu .box-filter .triagle {
+  border: 5px solid transparent;
+  border-top: 5px solid rgb(0, 0, 0);
+}
+.box_1 .right .box-menu .box-filter p {
+  font-size: 14px;
+  color: black;
+  font-family: "Avenir Book";
+  font-weight: normal;
+  font-style: normal;
+}
+.box_1 .right .box-menu .claim-btn {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0f303f;
+  transition: all 0.5s;
+}
+.box_1 .right .box-menu .claim-btn a {
+  color: white;
+  font-weight: normal;
+  font-style: normal;
+  font-family: "Avenir Book";
+}
+.box_1 .right .box-menu .claim-btn.__active {
+  width: 185px;
+  height: 34px;
+  transition: all 0.5s;
+}
+.box_1 .right .box-menu .part-size {
+  display: flex;
+  flex-direction: column;
+}
+.box_1 .right .box-menu .part-size .box-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  width: 185px;
+  height: 40px;
+  border: 1px solid #eae9e8;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.box_1 .right .box-menu .part-size .box-filter .triagle {
+  border: 5px solid transparent;
+  border-top: 5px solid rgb(0, 0, 0);
+}
+.box_1 .right .box-menu .part-size .box-filter p {
+  font-size: 14px;
+  color: black;
+  font-family: "Avenir Book";
+  font-weight: normal;
+  font-style: normal;
+}
+.box_1 .right .box-menu .part-size .box-filter-size-more {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  border: 1px solid #eae9e8;
+  transition: all 0.5s;
+}
+.box_1 .right .box-menu .part-size .box-filter-size-more .content {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-right: 8px;
+  padding-left: 8px;
+  justify-content: center;
+}
+.box_1 .right .box-menu .part-size .box-filter-size-more .content .size-item {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  border: 1px solid #eae9e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 17px;
+  cursor: pointer;
+}
+.box_1 .right .box-menu .part-size .box-filter-size-more .content .size-item p {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: "Avenir Book";
+}
+.box_1 .right .box-menu .part-size .box-filter-size-more .content :hover.size-item {
+  border: 1px solid #0f303f;
+}
+.box_1 .right .box-menu .part-size .box-filter-size-more .content .size-item.__active {
+  border: 1px solid #0f303f;
+}
+.box_1 .right .box-menu .part-size .box-filter-size-more.__active {
+  width: 185px;
+  height: 144px;
+  transition: all 0.5s;
+}
+.box_1 .right .box-menu .part-price .box-filter-price-more {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  border: 1px solid #eae9e8;
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /* The slider itself */
+  /* Mouse-over effects */
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+}
+.box_1 .right .box-menu .part-price .box-filter-price-more .slidecontainer {
+  width: 70%;
+  margin-top: 10px;
+}
+.box_1 .right .box-menu .part-price .box-filter-price-more .slider {
+  -webkit-appearance: none;
+  /* Override default CSS styles */
+  -moz-appearance: none;
+       appearance: none;
+  width: 100%;
+  /* Full-width */
+  border-radius: 15%;
+  height: 15px;
+  /* Specified height */
+  background: #d3d3d3;
+  /* Grey background */
+  outline: none;
+  /* Remove outline */
+  opacity: 0.7;
+  /* Set transparency (for mouse-over effects on hover) */
+  /* 0.2 seconds transition on hover */
+  transition: opacity 0.2s;
+}
+.box_1 .right .box-menu .part-price .box-filter-price-more .slider:hover {
+  opacity: 1;
+  /* Fully shown on mouse-over */
+}
+.box_1 .right .box-menu .part-price .box-filter-price-more .slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  /* Override default look */
+  appearance: none;
+  width: 17px;
+  /* Set a specific slider handle width */
+  height: 17px;
+  border-radius: 50%;
+  /* Slider handle height */
+  background: #000000;
+  /* Green background */
+  cursor: pointer;
+  /* Cursor on hover */
+}
+.box_1 .right .box-menu .part-price .box-filter-price-more .slider::-moz-range-thumb {
+  width: 10px;
+  /* Set a specific slider handle width */
+  height: 10px;
+  border-radius: 15%;
+  /* Slider handle height */
+  background: #000000;
+  /* Green background */
+  cursor: pointer;
+  /* Cursor on hover */
+}
+.box_1 .right .box-menu .part-price .box-filter-price-more #demo-price {
+  font-size: 18px;
+  font-family: "Avenir";
+  font-weight: normal;
+  font-style: normal;
+  margin-top: 10px;
+}
+.box_1 .right .box-menu .part-price .box-filter-price-more.__active {
+  width: 185px;
+  height: 100px;
+  transition: all 0.5s;
+}
+.box_1 .right .box-menu .part-color .box-filter-color-more {
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+  border: 1px solid #eae9e8;
+  transition: all 0.5s;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.box_1 .right .box-menu .part-color .box-filter-color-more .color-block {
+  width: 25px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  height: 25px;
+  border: 1px solid black;
+}
+.box_1 .right .box-menu .part-color .box-filter-color-more .black {
+  background-color: black;
+}
+.box_1 .right .box-menu .part-color .box-filter-color-more .white {
+  background-color: white;
+}
+.box_1 .right .box-menu .part-color .box-filter-color-more .red {
+  background-color: red;
+}
+.box_1 .right .box-menu .part-color .box-filter-color-more .green {
+  background-color: green;
+}
+.box_1 .right .box-menu .part-color .box-filter-color-more .blue {
+  background-color: blue;
+}
+.box_1 .right .box-menu .part-color .box-filter-color-more .yellow {
+  background-color: yellow;
+}
+.box_1 .right .box-menu .part-color .box-filter-color-more.__active {
+  width: 185px;
+  height: 100px;
+  transition: all 0.5s;
+}
+.box_1 .right .box-menu .part-brend .box-filter-brend-more {
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+  border: 1px solid #eae9e8;
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.box_1 .right .box-menu .part-brend .box-filter-brend-more .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.box_1 .right .box-menu .part-brend .box-filter-brend-more .text a {
+  color: black;
+  font-size: 14px;
+  font-family: "Avenir";
+  font-weight: normal;
+  font-style: normal;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.box_1 .right .box-menu .part-brend .box-filter-brend-more.__active {
+  width: 185px;
+  height: 100px;
+  transition: all 0.5s;
+}
+.box_1 .right .catalog-item {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.box_1 .right .catalog-item .top-part {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.box_1 .right .catalog-item .top-part p {
+  color: gray;
+}
+.box_1 .right .catalog-item .top-part .chooes {
+  display: flex;
+  width: 221px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.box_1 .right .catalog-item .top-part .chooes p {
+  margin-right: 5px;
+}
+.box_1 .right .catalog-item .top-part .chooes .chooes-new {
+  color: black;
+  cursor: pointer;
+}
+.box_1 .right .catalog-item .top-part .chooes .more-filter {
+  transition: all 0.5s;
+  margin-top: 10px;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  border: 1px solid gray;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box_1 .right .catalog-item .top-part .chooes .more-filter a {
+  cursor: pointer;
+  color: black;
+}
+.box_1 .right .catalog-item .top-part .chooes .more-filter.__active {
+  width: 180px;
+  height: 75px;
+  transition: all 0.5s;
+}
+.box_1 .right .catalog-item .top-part .chooes .triagle {
+  border: 5px solid transparent;
+  border-top: 5px solid rgb(0, 0, 0);
+}
+.box_1 .right .catalog-item .main-part {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box_1 .right .catalog-item .main-part .item-catalog {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  margin-bottom: 40px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog img {
+  width: 250px;
+  height: 370px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog .photo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.box_1 .right .catalog-item .main-part .item-catalog .photo .sale {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  font-size: 14px;
+  font-family: "Avenir";
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -355px;
+  right: 15px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog .photo .heart-follow {
+  position: relative;
+  top: -110px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  align-items: center;
+  right: 15px;
+  justify-content: center;
+}
+.box_1 .right .catalog-item .main-part .item-catalog .photo .btn-follow {
+  width: auto;
+  height: auto;
+}
+.box_1 .right .catalog-item .main-part .item-catalog .text {
+  margin-top: -80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box_1 .right .catalog-item .main-part .item-catalog .text h1 {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+  margin-bottom: 5px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog .text h3 {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: black;
+}
+.box_1 .right .catalog-item .main-part .item-catalog .text .price {
+  display: flex;
+  margin-top: 10px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog .text .price .old-price {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #cecece;
+  text-decoration: line-through;
+  margin-right: 5px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog .text .price .new-price {
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fd5454;
+}
+.box_1 .right .catalog-item .main-part .item-catalog:nth-child(3) .photo .heart-follow {
+  top: -60px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog:nth-child(3) .text {
+  margin-top: -35px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog:nth-child(4) .photo .heart-follow {
+  top: -60px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog:nth-child(4) .text {
+  margin-top: -35px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog:nth-child(5) .photo .heart-follow {
+  top: -60px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog:nth-child(5) .text {
+  margin-top: -35px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog:nth-child(6) .photo .heart-follow {
+  top: -60px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog:nth-child(6) .text {
+  margin-top: -35px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog:nth-child(8) .photo .heart-follow {
+  top: -60px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog:nth-child(8) .text {
+  margin-top: -35px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog:nth-child(9) .photo .heart-follow {
+  top: -60px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog:nth-child(9) .text {
+  margin-top: -35px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog:nth-child(10) .photo .heart-follow {
+  top: -60px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog:nth-child(10) .text {
+  margin-top: -35px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog:nth-child(11) .photo .heart-follow {
+  top: -60px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog:nth-child(11) .text {
+  margin-top: -35px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog:nth-child(12) .photo .heart-follow {
+  top: -60px;
+}
+.box_1 .right .catalog-item .main-part .item-catalog:nth-child(12) .text {
+  margin-top: -35px;
+}
+.box_1 .right .catalog-item .bottom-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box_1 .right .catalog-item .bottom-part .view-more {
+  width: 250px;
+  height: 50px;
+  background: #0f303f;
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: "Avenir";
+  font-style: normal;
+}

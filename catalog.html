@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catalog</title>
+    <link rel="stylesheet" href="css/catalog.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400&family=Cormorant:wght@400;500;600&family=Gravitas+One&family=Jost:wght@300;400;500;700&family=Roboto:wght@500&family=Space+Mono&family=Suranna&family=Tajawal:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <img src="img_logo/Group.svg" alt="logo" />
+
+        <div class="nav">
+          <h1 class="woman">ЖЕНЩИНЫ</h1>
+          <h1 class="man">МУЖЧИНЫ</h1>
+          <h1 class="search-btn">ПОИСК</h1>
+        </div>
+
+        <div class="last_part">
+          <div class="language">
+            <h3 id="ru" class="__active">Ru</h3>
+            <h3 id="ua">Ua</h3>
+            <h3 id="en">En</h3>
+          </div>
+          <div class="icon">
+            <img src="img_logo/icon/person.svg" alt="person" />
+            <img src="img_logo/icon/heart.svg" alt="heart" />
+            <img src="img_logo/icon/lock.svg" alt="card" />
+
+            <div class="header-burger">
+              <div class="top"></div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="search_form">
+        <input class="search-inp" type="text" placeholder="Поск..." />
+        <a class="search-btn-close" href="#">ПОИСК</a>
+      </div>
+    </header>
+
+    <div class="small">
+      <div class="text">
+        <h3>Главная</h3>
+        <div class="dot"></div>
+        <h3>Женщины</h3>
+        <div class="dot"></div>
+        <h3>Одежда</h3>
+        <div class="dot"></div>
+        <h3 class="gray">Кофты и пиджаки</h3>
+      </div>
+    </div>
+    <div class="nav_burger">
+      <div class="nav">
+        <div class="sex">
+          <h1 id="open-woman-list" class="woman __active">ЖЕНЩИНЫ</h1>
+          <h1 id="open-man-list" class="man">МУЖЧИНЫ</h1>
+        </div>
+
+        <div class="search">
+          <h1>ПОИСК</h1>
+          <input type="text" />
+        </div>
+
+        <div class="language-mobile">
+          <h2 id="ru-mob">RU</h2>
+          <h2 id="ua-mob">UA</h2>
+        </div>
+      </div>
+
+      <div id="woman-list" class="list">
+        <div id="clothes" class="item">
+          <h1>ОДЕЖДА</h1>
+
+          <div id="active-plus" class="plus">
+            <div class="top"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+
+        <div class="clothes-more">
+          <a href="#">Свитера толтовки</a>
+          <a href="#">Платья юбки</a>
+          <a href="#">Футболки и топы</a>
+          <a href="#">Брюки и шорты</a>
+          <a href="#">Рубашки </a>
+          <a href="#">Комбинезоны </a>
+          <a href="#">Леггинсы</a>
+        </div>
+
+        <div id="shoes" class="item">
+          <h1>ОБУВЬ</h1>
+
+          <div id="plus-shoes" class="plus">
+            <div class="top"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div class="shoes-more">
+          <a href="#">Кроссовки </a>
+          <a href="#">Шлепанцы</a>
+        </div>
+
+        <div id="bag" class="item">
+          <h1>СУМКИ</h1>
+
+          <div id="plus-bag" class="plus">
+            <div class="top"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div class="bag-more">
+          <a href="#">Сумки </a>
+          <a href="#">Рюкзаки </a>
+          <a href="#">Кроссбоди </a>
+          <a href="#">Поясные </a>
+          <a href="#">Спортивные </a>
+          <a href="#">Шопперы</a>
+        </div>
+
+        <div id="accessories" class="item">
+          <h1>АКСЕСУАРЫ</h1>
+
+          <div id="plus-accessories" class="plus">
+            <div class="top"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div class="accessories-more">
+          <a href="#">Головные уборы</a>
+          <a href="#">Перчатки </a>
+          <a href="#">Шарфы и платки</a>
+          <a href="#">Носки</a>
+          <a href="#">Гетры</a>
+          <a href="#">др</a>
+        </div>
+
+        <div id="under-wear" class="item">
+          <h1>БЕЛЬЕ</h1>
+
+          <div id="plus-under-wear" class="plus">
+            <div class="top"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div class="under-wear-more">
+          <a href="#">РАЗНОЕ</a>
+        </div>
+      </div>
+
+      <div id="man-list" class="list">
+        <div id="clothes-man" class="item">
+          <h1>ОДЕЖДА</h1>
+
+          <div id="active-plus-man" class="plus">
+            <div class="top"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div class="clothes-more-man">
+          <a href="#">Свитера толтовки</a>
+          <a href="#">Футболки и топы</a>
+          <a href="#">Брюки и шорты</a>
+          <a href="#">Рубашки </a>
+        </div>
+
+        <div id="shoes-man" class="item">
+          <h1>ОБУВЬ</h1>
+          <div id="plus-shoes-man" class="plus">
+            <div class="top"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div class="shoes-more-man">
+          <a href="#">Кроссовки </a>
+          <a href="#">Шлепанцы</a>
+        </div>
+
+        <div id="bag-man" class="item">
+          <h1>СУМКИ</h1>
+
+          <div id="plus-bag-man" class="plus">
+            <div class="top"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div class="bag-more-man">
+          <a href="#">Рюкзаки </a>
+          <a href="#">Кроссбоди </a>
+          <a href="#">Поясные </a>
+          <a href="#">Спортивные </a>
+        </div>
+
+        <div id="accessories-man" class="item">
+          <h1>АКСЕСУАРЫ</h1>
+          <div id="plus-accessories-man" class="plus">
+            <div class="top"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div class="accessories-more-man">
+          <a href="#">Головные уборы</a>
+          <a href="#">Перчатки </a>
+          <a href="#">Шарфы и платки</a>
+          <a href="#">Носки</a>
+          <a href="#">Гетры</a>
+          <a href="#">др</a>
+        </div>
+
+        <div id="under-wear-man" class="item">
+          <h1>БЕЛЬЕ</h1>
+          <div id="plus-under-wear-man" class="plus">
+            <div class="top"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div class="under-wear-more-man">
+          <a href="#">РАЗНОЕ</a>
+        </div>
+      </div>
+
+      <div class="item_list">
+        <div class="search-small">
+          <h1>ПОИСК</h1>
+          <input type="text" />
+        </div>
+        <div class="language-mobile-second">
+          <h2 id="ru-mob">RU</h2>
+          <h2 id="ua-mob">UA</h2>
+        </div>
+      </div>
+
+      <div class="brend_list">
+        <a href="#">DEHA</a>
+        <a href="#">AMERICAN VINTAGE</a>
+        <a href="#">GEORGE GINA LUCY</a>
+        <a href="#">BIRKENSTOCK</a>
+      </div>
+    </div>
+
+    <div class="more-woman-info">
+      <div class="info-colom">
+        <div class="colom">
+          <h1>ОДЕЖДА</h1>
+          <a href="#">Свитшоты и худи</a>
+          <a href="#">Платья юбки</a>
+          <a href="#">Футболки и топы</a>
+          <a href="#">Брюки и шорты</a>
+          <a href="#">Рубашки </a>
+          <a href="#">Комбинезоны </a>
+          <a href="#">Леггинсы </a>
+          <a href="#">Куртки </a>
+          <a href="#">Пальто </a>
+          <a href="#">Плащи </a>
+          <a href="#">Желетки </a>
+          <a href="#">Ветровки</a>
+        </div>
+
+        <div class="colom">
+          <h1>ОБУВЬ</h1>
+          <a href="#">Кроссовки</a>
+          <a href="#">Шлепанцы</a>
+        </div>
+
+        <div class="colom">
+          <h1>СУМКИ</h1>
+          <a href="#">Сумки</a>
+          <a href="#">Рюкзаки</a>
+          <a href="#">Поясные </a>
+          <a href="#">Спортивные</a>
+          <a href="#">Шопперы</a>
+        </div>
+
+        <div class="colom">
+          <h1>АКСЕСУАРИ</h1>
+          <a href="#">Головные уборы</a>
+          <a href="#">Перчатки</a>
+          <a href="#">Шарфы и платки</a>
+          <a href="#">Носки</a>
+          <a href="#">Гетры</a>
+        </div>
+
+        <div class="colom">
+          <h1>БЕЛЬЕ</h1>
+          <a href="#">РАЗНОЕ</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="more-man-info">
+      <div class="info-colom">
+        <div class="colom">
+          <h1>ОДЕЖДА</h1>
+          <a href="#">Свитшоты и худи</a>
+          <a href="#">Футболки и майки</a>
+          <a href="#">Брюки и шорты</a>
+          <a href="#">Рубашки </a>
+          <a href="#">Комбинезоны </a>
+          <a href="#">Куртки </a>
+          <a href="#">Пальто </a>
+          <a href="#">Плащи </a>
+          <a href="#">Желетки </a>
+          <a href="#">Ветровки</a>
+        </div>
+
+        <div class="colom">
+          <h1>ОБУВЬ</h1>
+          <a href="#">Кроссовки</a>
+          <a href="#">Шлепанцы</a>
+        </div>
+
+        <div class="colom">
+          <h1>СУМКИ</h1>
+          <a href="#">Барсетки</a>
+          <a href="#">Рюкзаки</a>
+          <a href="#">Поясные </a>
+          <a href="#">Спортивные</a>
+        </div>
+
+        <div class="colom">
+          <h1>АКСЕСУАРИ</h1>
+          <a href="#">Головные уборы</a>
+          <a href="#">Перчатки</a>
+          <a href="#">Шарфы и платки</a>
+          <a href="#">Носки</a>
+          <a href="#">Гетры</a>
+        </div>
+
+        <div class="colom">
+          <h1>БЕЛЬЕ</h1>
+          <a href="#">РАЗНОЕ</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="box_1">
+      <div class="left">
+        <div class="sex">
+          <h1 id="woman-filter" class="__active">ЖЕНЩИНЫ</h1>
+          <h1 id="man-filter">МУЖЧИНЫ</h1>
+        </div>
+
+        <div id="woman-list-filter" class="list">
+          <div id="clothes-woman-item" class="item">
+            <h1>ОДЕЖДА</h1>
+            <div id="plus-clothes-woman" class="plus">
+              <div class="top"></div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div class="clothes-more-item">
+            <a href="#">Свитера толтовки</a>
+            <a href="#">Платья юбки</a>
+            <a href="#">Футболки и топы</a>
+            <a href="#">Брюки и шорты</a>
+            <a href="#">Рубашки </a>
+            <a href="#">Комбинезоны </a>
+            <a href="#">Леггинсы</a>
+          </div>
+
+          <div id="shoes-woman-item" class="item">
+            <h1>ОБУВЬ</h1>
+            <div id="plus-shoes-woman" class="plus">
+              <div class="top"></div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div class="shoes-more-item">
+            <a href="#">Кроссовки </a>
+            <a href="#">Шлепанцы</a>
+          </div>
+
+          <div id="bag-woman-item" class="item">
+            <h1>СУМКИ</h1>
+            <div id="plus-bag-woman" class="plus">
+              <div class="top"></div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div class="bag-more-item">
+            <a href="#">Сумки </a>
+            <a href="#">Рюкзаки </a>
+            <a href="#">Кроссбоди </a>
+            <a href="#">Поясные </a>
+            <a href="#">Спортивные </a>
+            <a href="#">Шопперы</a>
+          </div>
+
+          <div id="accesories-woman-item" class="item">
+            <h1>АКСЕСCУАРЫ</h1>
+            <div id="plus-accesories-woman" class="plus">
+              <div class="top"></div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div class="accesories-more-item">
+            <a href="#">Головные уборы</a>
+            <a href="#">Перчатки </a>
+            <a href="#">Шарфы и платки </a>
+            <a href="#">Носки </a>
+            <a href="#">Гетры </a>
+            <a href="#">др</a>
+          </div>
+
+          <div id="inder-wear-woman-item" class="item">
+            <h1>БЕЛЬЕ</h1>
+            <div id="plus-under-wear-woman" class="plus">
+              <div class="top"></div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div class="inder-wear-more-item">
+            <a href="#">РАЗНОЕ</a>
+          </div>
+        </div>
+
+        <div id="man-list-filter" class="list man">
+          <div id="clothes-man-item" class="item">
+            <h1>ОДЕЖДА</h1>
+            <div id="plus-clothes-man" class="plus">
+              <div class="top"></div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div id="clothes-more-item-man" class="clothes-more-item">
+            <a href="#">Свитера толтовки</a>
+            <a href="#">Футболки и топы</a>
+            <a href="#">Брюки и шорты</a>
+            <a href="#">Рубашки </a>
+            <a href="#">Комбинезоны </a>
+          </div>
+
+          <div id="shoes-man-item" class="item">
+            <h1>ОБУВЬ</h1>
+            <div id="plus-shoes-man" class="plus">
+              <div class="top"></div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div id="shoes-more-item-man" class="shoes-more-item">
+            <a href="#">Кроссовки </a>
+            <a href="#">Шлепанцы</a>
+          </div>
+
+          <div id="bag-man-item" class="item">
+            <h1>СУМКИ</h1>
+            <div id="plus-bag-man" class="plus">
+              <div class="top"></div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div id="bag-more-item-man" class="bag-more-item">
+            <a href="#">Сумки </a>
+            <a href="#">Рюкзаки </a>
+            <a href="#">Кроссбоди </a>
+            <a href="#">Поясные </a>
+            <a href="#">Спортивные </a>
+          </div>
+
+          <div id="accesories-man-item" class="item">
+            <h1>АКСЕСCУАРЫ</h1>
+            <div id="plus-accesories-man" class="plus">
+              <div class="top"></div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div id="accesories-more-item-man" class="accesories-more-item">
+            <a href="#">Головные уборы</a>
+            <a href="#">Перчатки </a>
+            <a href="#">Шарфы и платки </a>
+            <a href="#">Носки </a>
+            <a href="#">Гетры </a>
+            <a href="#">др</a>
+          </div>
+
+          <div id="inder-wear-man-item" class="item">
+            <h1>БЕЛЬЕ</h1>
+            <div id="plus-under-wear-man" class="plus">
+              <div class="top"></div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div id="inder-wear-more-item-man" class="inder-wear-more-item">
+            <a href="#">РАЗНОЕ</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <h1>КОФТИ ТА ПІДЖАКИ</h1>
+
+        <div class="box-menu">
+          <div class="part-size">
+            <div id="size-more" class="box-filter size">
+              <p>Размер</p>
+              <div class="triagle"></div>
+            </div>
+
+            <div class="box-filter-size-more">
+              <div class="content">
+                <div class="size-item">
+                  <p>XS</p>
+                </div>
+
+                <div class="size-item">
+                  <p>S</p>
+                </div>
+
+                <div class="size-item">
+                  <p>M</p>
+                </div>
+
+                <div class="size-item">
+                  <p>L</p>
+                </div>
+
+                <div class="size-item">
+                  <p>XL</p>
+                </div>
+
+                <div class="size-item">
+                  <p>XP</p>
+                </div>
+              </div>
+            </div>
+            <div id="btn-size" class="claim-btn">
+              <a href="#">ПРИМЕНИТЬ</a>
+            </div>
+          </div>
+
+          <div class="part-price">
+            <div id="price-more" class="box-filter price">
+              <p>Цена</p>
+              <div class="triagle"></div>
+            </div>
+
+            <div class="box-filter-price-more">
+              <div class="slidecontainer">
+                <input
+                  type="range"
+                  min="1"
+                  max="3800"
+                  value="2500"
+                  class="slider"
+                  id="myRange"
+                />
+              </div>
+
+              <div id="demo-price"></div>
+            </div>
+            <div id="btn-price" class="claim-btn">
+              <a href="#">ПРИМЕНИТЬ</a>
+            </div>
+          </div>
+
+          <div class="part-color">
+            <div id="color-more" class="box-filter color">
+              <p>Цвет</p>
+              <div class="triagle"></div>
+            </div>
+
+            <div class="box-filter-color-more">
+              <div class="color-block black"></div>
+              <div class="color-block white"></div>
+              <div class="color-block red"></div>
+              <div class="color-block green"></div>
+              <div class="color-block blue"></div>
+              <div class="color-block yellow"></div>
+            </div>
+
+            <div id="btn-color" class="claim-btn">
+              <a href="#">ПРИМЕНИТЬ</a>
+            </div>
+          </div>
+
+          <div class="part-brend">
+            <div id="brend-more" class="box-filter brend">
+              <p>Бренд</p>
+              <div class="triagle"></div>
+            </div>
+
+            <div class="box-filter-brend-more">
+              <div class="text">
+                <a>AMERICAN VINTAGE</a>
+                <a>DEHA</a>
+                <a>GEORGE GINA LUCY</a>
+              </div>
+            </div>
+
+            <div id="btn-brend" class="claim-btn">
+              <a href="#">ПРИМЕНИТЬ</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="catalog-item">
+          <div class="top-part">
+            <p>1200 товаров</p>
+
+            <div class="chooes">
+              <p>Соритировать:</p>
+              <p class="chooes-new">Новинки</p>
+              <div class="triagle"></div>
+
+              <div class="more-filter">
+                <a class="chooes-item-up">По возростанию</a>
+                <a class="chooes-item-cheap">От дишевых</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="main-part">
+            <div class="item-catalog">
+              <div class="photo">
+                <img src="img/clothes-4.png" alt="item photo" />
+
+                <p class="sale">40 %</p>
+
+                <div class="heart-follow">
+                  <img
+                    class="btn-follow"
+                    src="img_logo/icon/heart.svg"
+                    alt="heart"
+                  />
+                </div>
+              </div>
+
+              <div class="text">
+                <h1>GEORGE GINA LUCY</h1>
+                <h3>CLASSIC SHOES</h3>
+                <div class="price">
+                  <p class="old-price">6100 UAH</p>
+                  <p class="new-price">3800 UAH</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item-catalog">
+              <div class="photo">
+                <img src="img/clothes-4.png" alt="item photo" />
+
+                <p class="sale">40 %</p>
+
+                <div class="heart-follow">
+                  <img
+                    class="btn-follow"
+                    src="img_logo/icon/heart.svg"
+                    alt="heart"
+                  />
+                </div>
+              </div>
+
+              <div class="text">
+                <h1>GEORGE GINA LUCY</h1>
+                <h3>CLASSIC SHOES</h3>
+                <div class="price">
+                  <p class="old-price">6100 UAH</p>
+                  <p class="new-price">3800 UAH</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item-catalog">
+              <div class="photo">
+                <img src="img/clothes-1.png" alt="item photo" />
+
+                <div class="heart-follow">
+                  <img
+                    class="btn-follow"
+                    src="img_logo/icon/heart.svg"
+                    alt="heart"
+                  />
+                </div>
+              </div>
+
+              <div class="text">
+                <h1>AMERICAN VINTAGE</h1>
+                <h3>CLASSIC SHOES</h3>
+                <div class="price">
+                  <p>3800 UAH</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item-catalog">
+              <div class="photo">
+                <img src="img/clothes-3.png" alt="item photo" />
+
+                <div class="heart-follow">
+                  <img
+                    class="btn-follow"
+                    src="img_logo/icon/heart.svg"
+                    alt="heart"
+                  />
+                </div>
+              </div>
+
+              <div class="text">
+                <h1>AMERICAN VINTAGE</h1>
+                <h3>CLASSIC SHOES</h3>
+                <div class="price">
+                  <p>3800 UAH</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item-catalog">
+              <div class="photo">
+                <img src="img/clothes-4.png" alt="item photo" />
+
+                <div class="heart-follow">
+                  <img
+                    class="btn-follow"
+                    src="img_logo/icon/heart.svg"
+                    alt="heart"
+                  />
+                </div>
+              </div>
+
+              <div class="text">
+                <h1>DEHA</h1>
+                <h3>CLASSIC SHOES</h3>
+                <div class="price">
+                  <p>3800 UAH</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item-catalog">
+              <div class="photo">
+                <img src="img/clothes-4.png" alt="item photo" />
+
+                <div class="heart-follow">
+                  <img
+                    class="btn-follow"
+                    src="img_logo/icon/heart.svg"
+                    alt="heart"
+                  />
+                </div>
+              </div>
+
+              <div class="text">
+                <h1>DEHA</h1>
+                <h3>CLASSIC SHOES</h3>
+                <div class="price">
+                  <p>3800 UAH</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item-catalog">
+              <div class="photo">
+                <img src="img/clothes-5.jpg" alt="item photo" />
+
+                <p class="sale">40 %</p>
+
+                <div class="heart-follow">
+                  <img
+                    class="btn-follow"
+                    src="img_logo/icon/heart.svg"
+                    alt="heart"
+                  />
+                </div>
+              </div>
+
+              <div class="text">
+                <h1>AMERICAN VINTAGE</h1>
+                <h3>CLASSIC SHOES</h3>
+                <div class="price">
+                  <p class="old-price">6100 UAH</p>
+                  <p class="new-price">3800 UAH</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item-catalog">
+              <div class="photo">
+                <img src="img/clothes-4.png" alt="item photo" />
+
+                <div class="heart-follow">
+                  <img
+                    class="btn-follow"
+                    src="img_logo/icon/heart.svg"
+                    alt="heart"
+                  />
+                </div>
+              </div>
+
+              <div class="text">
+                <h1>DEHA</h1>
+                <h3>CLASSIC SHOES</h3>
+                <div class="price">
+                  <p>3800 UAH</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item-catalog">
+              <div class="photo">
+                <img src="img/clothes-6.png" alt="item photo" />
+
+                <div class="heart-follow">
+                  <img
+                    class="btn-follow"
+                    src="img_logo/icon/heart.svg"
+                    alt="heart"
+                  />
+                </div>
+              </div>
+
+              <div class="text">
+                <h1>DEHA</h1>
+                <h3>CLASSIC SHOES</h3>
+                <div class="price">
+                  <p>3800 UAH</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item-catalog">
+              <div class="photo">
+                <img src="img/clothes-3.png" alt="item photo" />
+
+                <div class="heart-follow">
+                  <img
+                    class="btn-follow"
+                    src="img_logo/icon/heart.svg"
+                    alt="heart"
+                  />
+                </div>
+              </div>
+
+              <div class="text">
+                <h1>AMERICAN VINTAGE</h1>
+                <h3>CLASSIC SHOES</h3>
+                <div class="price">
+                  <p>3800 UAH</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item-catalog">
+              <div class="photo">
+                <img src="img/clothes-4.png" alt="item photo" />
+
+                <div class="heart-follow">
+                  <img
+                    class="btn-follow"
+                    src="img_logo/icon/heart.svg"
+                    alt="heart"
+                  />
+                </div>
+              </div>
+
+              <div class="text">
+                <h1>DEHA</h1>
+                <h3>CLASSIC SHOES</h3>
+                <div class="price">
+                  <p>3800 UAH</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item-catalog">
+              <div class="photo">
+                <img src="img/clothes-4.png" alt="item photo" />
+
+                <div class="heart-follow">
+                  <img
+                    class="btn-follow"
+                    src="img_logo/icon/heart.svg"
+                    alt="heart"
+                  />
+                </div>
+              </div>
+
+              <div class="text">
+                <h1>DEHA</h1>
+                <h3>CLASSIC SHOES</h3>
+                <div class="price">
+                  <p>3800 UAH</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item-catalog">
+              <div class="photo">
+                <img src="img/clothes-5.jpg" alt="item photo" />
+
+                <p class="sale">40 %</p>
+
+                <div class="heart-follow">
+                  <img
+                    class="btn-follow"
+                    src="img_logo/icon/heart.svg"
+                    alt="heart"
+                  />
+                </div>
+              </div>
+
+              <div class="text">
+                <h1>AMERICAN VINTAGE</h1>
+                <h3>CLASSIC SHOES</h3>
+                <div class="price">
+                  <p class="old-price">6100 UAH</p>
+                  <p class="new-price">3800 UAH</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item-catalog">
+              <div class="photo">
+                <img src="img/clothes-5.jpg" alt="item photo" />
+
+                <p class="sale">40 %</p>
+
+                <div class="heart-follow">
+                  <img
+                    class="btn-follow"
+                    src="img_logo/icon/heart.svg"
+                    alt="heart"
+                  />
+                </div>
+              </div>
+
+              <div class="text">
+                <h1>AMERICAN VINTAGE</h1>
+                <h3>CLASSIC SHOES</h3>
+                <div class="price">
+                  <p class="old-price">6100 UAH</p>
+                  <p class="new-price">3800 UAH</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item-catalog">
+              <div class="photo">
+                <img src="img/clothes-6.png" alt="item photo" />
+
+                <p class="sale">40 %</p>
+
+                <div class="heart-follow">
+                  <img
+                    class="btn-follow"
+                    src="img_logo/icon/heart.svg"
+                    alt="heart"
+                  />
+                </div>
+              </div>
+
+              <div class="text">
+                <h1>AMERICAN VINTAGE</h1>
+                <h3>CLASSIC SHOES</h3>
+                <div class="price">
+                  <p class="old-price">6100 UAH</p>
+                  <p class="new-price">3800 UAH</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bottom-part">
+            <button class="view-more">ПОКАЗАТЬ БОЛЬШЕ</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="content">
+        <h1>БУДЬТЕ В КУРСЕ СОБЫТИЙ</h1>
+
+        <div class="inp">
+          <input id="inp-ivent" type="text" placeholder="Впишыте" />
+
+          <div id="btn-inp" class="btn">
+            <div class="top"></div>
+            <div class="mid"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+
+        <div class="info">
+          <a href="#">О нас</a>
+          <a href="#">Распространенные вопросы</a>
+          <a href="#">Бренды</a>
+        </div>
+      </div>
+
+      <div class="last-text">
+        <div class="text">
+          <a href="#">Все права защищены © 2020 Allegria.com</a>
+          <p>Дизайн и разработка:</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/catalog.js"></script>
+  </body>
+</html>
