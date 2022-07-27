@@ -1,8 +1,8 @@
-@import "css/footer.css";
-@import "css/header.css";
-@import "css/search-form.css";
-@import "css/nullstyle.css";
-@import "css/footer.css";
+@import "/css/header.css" screen;
+@import "/css/footer.css" screen;
+@import "/css/fonts.css" screen;
+@import "/css/nullstyle.css" screen;
+@import "/css/search-form.css" screen;
 .more-man-info {
   height: 0;
   width: 0;
