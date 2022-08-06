@@ -619,6 +619,11 @@
   height: 100px;
   transition: all 0.5s;
 }
+.box_1 .right .wrapper-box-menu-mobile {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
 .box_1 .right .catalog-item {
   margin-top: 24px;
   display: flex;
@@ -831,4 +836,310 @@
   font-weight: 900;
   font-family: "Avenir";
   font-style: normal;
+}
+
+@media (max-width: 768px) {
+  .box_1 .left {
+    display: none;
+  }
+  .box_1 .right .box-menu {
+    display: none;
+  }
+  .box_1 .right .box-menu-mobile-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+  .box_1 .right .box-menu-mobile-btn .btn-filters {
+    width: 360px;
+    height: 40px;
+    border: 1px solid #eae9e8;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+    align-items: center;
+  }
+  .box_1 .right .box-menu-mobile-btn .btn-filters h1 {
+    font-family: "Avenir Book";
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+  .box_1 .right .box-menu-mobile-btn .btn-filters .arrow .top {
+    width: 10px;
+    height: 1px;
+    transform: rotate(45deg);
+    background: #000;
+  }
+  .box_1 .right .box-menu-mobile-btn .btn-filters .arrow .bottom {
+    width: 10px;
+    height: 1px;
+    background: #000;
+    transform: rotate(-45deg) translate(5px, 5px);
+  }
+  .box_1 .right .box-menu-mobile-btn .btn-sort {
+    width: 360px;
+    height: 40px;
+    border: 1px solid #eae9e8;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+    align-items: center;
+  }
+  .box_1 .right .box-menu-mobile-btn .btn-sort h1 {
+    font-family: "Avenir Book";
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+  .box_1 .right .box-menu-mobile-btn .btn-sort .arrow .top {
+    width: 10px;
+    height: 1px;
+    transform: rotate(45deg);
+    background: #000;
+  }
+  .box_1 .right .box-menu-mobile-btn .btn-sort .arrow .bottom {
+    width: 10px;
+    height: 1px;
+    background: #000;
+    transform: rotate(-45deg) translate(5px, 5px);
+  }
+  .box_1 .right .wrapper-box-menu-mobile {
+    width: 0;
+    height: 0;
+    transition: all 0.5s;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: white;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-left: 40px;
+    z-index: 4;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile {
+    width: 100%;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .top-part-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid gray;
+    width: 100%;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .top-part-filter .back-arrow .top {
+    height: 2px;
+    transform: translate(-1px, 0px) rotate(-30deg);
+    width: 10px;
+    background-color: black;
+    border-radius: 2px;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .top-part-filter .back-arrow .mid {
+    height: 2px;
+    width: 24px;
+    background-color: black;
+    border-radius: 2px;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .top-part-filter .back-arrow .bottom {
+    height: 2px;
+    width: 10px;
+    border-radius: 2px;
+    transform: translate(-1px, 0px) rotate(30deg);
+    background-color: black;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .top-part-filter h1 {
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    font-family: "Avenir";
+    font-style: normal;
+    margin-bottom: 0;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .top-part-filter .close-window-filter .top {
+    height: 1px;
+    width: 20px;
+    background: #000;
+    transform: rotate(45deg);
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .top-part-filter .close-window-filter .bottom {
+    height: 1px;
+    width: 20px;
+    background: #000;
+    transform: rotate(-45deg);
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .sex-selection {
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    width: 205px;
+    margin-top: 140px;
+    border-bottom: 1px gray solid;
+    margin-bottom: 25px;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .sex-selection h1 {
+    font-size: 14px;
+    font-family: "Avenir";
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 0;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .sex-selection .__active {
+    border-bottom: #fd5454 solid 2px;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .sex-selection #woman-filter-mobile {
+    margin-right: 50px;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #eae9e8;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile .item-filter-mobile-more {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile .item-filter-mobile-more h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile .item-filter-mobile-more a {
+    font-size: 14px;
+    font-family: "Avenir";
+    font-weight: 900;
+    font-style: normal;
+    color: black;
+    margin-bottom: 5px;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile .item-filter-mobile-more.__active {
+    width: 225px;
+    transition: all 0.5s;
+    height: 90px;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile #size-mobile-more.__active {
+    height: 30px;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile .head-part {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile .head-part h2 {
+    font-size: 14px;
+    font-family: "Avenir";
+    font-weight: 900;
+    font-style: normal;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile .head-part .plus-filter-mobile .top {
+    height: 1px;
+    width: 10px;
+    background: #000;
+    transform: rotate(90deg) translate(1px, 0px);
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile .head-part .plus-filter-mobile .bottom {
+    height: 1px;
+    width: 10px;
+    background-color: #000;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile .head-part .plus-filter-mobile.__active .top {
+    display: none;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile .head-part .plus-filter-mobile.__active .bottom {
+    background-color: #fd5454;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile .color {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile .color .black-color {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border: 1px black solid;
+    margin-right: 5px;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile .color .white-color {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    background-color: white;
+    border: 1px black solid;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile .color .red-color {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    background-color: red;
+    border: 1px black solid;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile .color .blue-color {
+    width: 25px;
+    margin-right: 5px;
+    height: 25px;
+    background-color: blue;
+    border: 1px black solid;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile .color .green-color {
+    width: 25px;
+    margin-right: 5px;
+    height: 25px;
+    background-color: green;
+    border: 1px black solid;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile .color .yellow-color {
+    width: 25px;
+    height: 25px;
+    background-color: yellow;
+    margin-right: 5px;
+    border: 1px black solid;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile .size-block {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile .size-block .block-size {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-right: 5px;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile .size-block .block-size p {
+    color: black;
+    font-size: 14px;
+    font-family: "Avenir";
+    font-weight: normal;
+    font-style: normal;
+  }
+  .box_1 .right .wrapper-box-menu-mobile .box-menu-mobile .filters-mobile .item-filter-mobile .size-block .block-size:hover {
+    border: 1px solid #fd5454;
+  }
+  .box_1 .right .wrapper-box-menu-mobile.__active {
+    height: 1000%;
+    transition: all 0.5s;
+    width: 400px;
+  }
 }

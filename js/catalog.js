@@ -396,7 +396,62 @@ btnUnderWearMan.onclick = () => {
     underWearMoreManItem.classList.toggle('__active');
     plusUnderWearManItem.classList.toggle('__active');
 
+};
+
+
+
+/////////////////////////////////////////////////////////////////////////
+
+let btnOpenWindowFilter = document.querySelector('.btn-filters');
+let btnOpenWindowSort= document.querySelector('.btn-sort');
+let filterWindowMobile = document.querySelector('.wrapper-box-menu-mobile');
+let closeWindowFiltersMobile = document.querySelector('.back-arrow');
+let closeWindowFiltersMobile2 = document.querySelector('.close-window-filter');
+
+
+
+btnOpenWindowFilter.onclick = ()=>{
+    filterWindowMobile.classList.toggle('__active');
+};
+
+closeWindowFiltersMobile.onclick = ()=>{
+    filterWindowMobile.classList.remove('__active');
+};
+closeWindowFiltersMobile2.onclick = ()=>{
+    filterWindowMobile.classList.remove('__active');
+};
+
+
+let filterMobileCategories = document.querySelector('#filter-mobile-categories');
+let categoriesMobileMore = document.querySelector('#categories-mobile-more');
+let plusMobileCategories = document.querySelector('#plus-mobile-categories');
+
+filterMobileCategories.onclick = () =>{
+    categoriesMobileMore.classList.toggle('__active');
+    plusMobileCategories.classList.toggle('__active');
+};
+
+
+let filterMobileSize = document.querySelector('#filter-mobile-size');
+let sizeMobileMore = document.querySelector('#size-mobile-more');
+let plusMobileSize = document.querySelector('#plus-mobile-size');
+
+filterMobileSize.onclick = () =>{
+    sizeMobileMore.classList.toggle('__active');
+    plusMobileSize.classList.toggle('__active');
+};
+
+
+let filterMobilePrice = document.querySelector('#filter-mobile-price');
+let priceMobileMore = document.querySelector('#price-mobile-more');
+let plusMobilePrice = document.querySelector('#plus-mobile-price');
+
+filterMobilePrice.onclick = () =>{
+    priceMobileMore.classList.toggle('__active');
+    plusMobilePrice.classList.toggle('__active');
 }
+
+
 
 
 
